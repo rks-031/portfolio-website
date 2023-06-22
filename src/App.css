@@ -59,6 +59,7 @@ screen and (max-height: 700px) {
 
 .card-hover:hover {
   transform: translateY(-8px) scale(1.005) translateZ(0);
+  background: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 .button-color {
