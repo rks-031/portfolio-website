@@ -39,6 +39,7 @@ export default function Projects() {
                 href="https://github.com/rks-031/memeGenerator.git"
                 class="btn button-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github Repository
               </a>
@@ -60,6 +61,7 @@ export default function Projects() {
                 href="https://github.com/rks-031/patternPrinting.git"
                 class="btn button-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github Repository
               </a>
@@ -86,6 +88,7 @@ export default function Projects() {
                 href="https://github.com/rks-031/rks-031.git"
                 class="btn button-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github Repository
               </a>
@@ -112,6 +115,7 @@ export default function Projects() {
                 href="https://github.com/rks-031/SRJ-Jwellery.git"
                 class="btn button-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github Repository
               </a>
@@ -130,7 +134,12 @@ export default function Projects() {
               </p>
               <br />
               <br />
-              <a href="#" class="btn button-color" target="_blank">
+              <a
+                href="https://github.com/rks-031/weatherApp.git"
+                class="btn button-color"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github Repository
               </a>
             </div>
@@ -153,6 +162,7 @@ export default function Projects() {
                 href="https://github.com/rks-031/dynamicForm.git"
                 class="btn button-color"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github Repository
               </a>
