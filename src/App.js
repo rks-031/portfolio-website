@@ -1,14 +1,16 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import Merged from "./components/Merged";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Footer from "./components/Footer";
 // import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <Main />
+      <Merged />
+      <Footer />
     </div>
   );
 }

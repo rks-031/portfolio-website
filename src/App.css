@@ -11,8 +11,8 @@
 }
 
 .how-section1 {
-  margin-top: -15%;
-  padding: 10%;
+  margin-top: -18%;
+  padding: 5%;
 }
 
 .how-section1 h4 {
@@ -21,8 +21,11 @@
   font-size: 45px;
 }
 
-.how-section1 h3 {
+.how-section1 h2 {
   color: white;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.797);
+  font-size: 23px;
 }
 
 
@@ -36,4 +39,16 @@
 
 .how-img img {
   width: 40%;
+}
+
+hr {
+  background-color: rgb(113, 31, 190);
+
+}
+
+@media only screen and (max-width: 990px),
+screen and (max-height: 700px) {
+  .moderator {
+    padding-top: 0;
+  }
 }

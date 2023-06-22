@@ -17,15 +17,20 @@ export default function Main() {
   }, []);
   return (
     <div>
-      <span id="element"></span>
       <div className="how-section1">
         <div className="row">
           <div className="col-md-6">
-            <h4>Hi, I am Rajnish</h4>
-            <h3>
-              and I am a Passionate <br />
-              <span ref={el} />
-            </h3>
+            <br />
+            <br />
+            <div className="moderator">
+              <h4>Hi, I am Rajnish</h4>
+              <h2>
+                and I am a Passionate <br />
+              </h2>
+              <h2>
+                <span ref={el} />
+              </h2>
+            </div>
           </div>
           <div className="col-md-6 how-img">
             <div
@@ -51,21 +56,21 @@ export default function Main() {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="./public/assets/1667554831238.jpg"
+                    src="/assets/1667554831238.jpg"
                     className="w-100"
                     alt="..."
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="./public/assets/photo_2023-06-21_11-01-32.jpg"
+                    src="/assets/1667554831238.jpg"
                     className="w-100"
                     alt="..."
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="./public/assets/photo_2023-06-21_11-02-18.jpg"
+                    src="/assets/1667554831238.jpg"
                     className="w-100"
                     alt="..."
                   />
@@ -99,6 +104,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 }
