@@ -18,7 +18,7 @@ function Experience() {
             <th scope="row" className="text-white-50">
               II.
             </th>
-            <td colspan="2">Advaita HackFest-2023</td>
+            <td colspan="2">Consolation Prize in Advaita HackFest-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
@@ -53,7 +53,6 @@ function Experience() {
         </tbody>
       </table>
       <br />
-      <hr />
     </div>
   );
 }
