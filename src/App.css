@@ -52,3 +52,21 @@ screen and (max-height: 700px) {
     padding-top: 0;
   }
 }
+
+.projects {
+  color: rgb(169, 94, 239);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px) scale(1.005) translateZ(0);
+}
+
+.button-color {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  color: white;
+}
+
+.button-color:hover {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  color: white;
+}
