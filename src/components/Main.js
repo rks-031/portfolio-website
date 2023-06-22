@@ -1,19 +1,20 @@
 import React from "react";
-// import { useEffect, useRef } from "react";
-// import Typed from "typed.js";
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 export default function Main() {
-  //   useEffect(() => {
-  //     const typed = new Typed(el.current, {
-  //       strings: ["hello", "mellow"],
-  //       typeSpeed: 50,
-  //       loop: true,
-  //     });
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Web Developer", "Open Source Contributor"],
+      typeSpeed: 50,
+      loop: true,
+    });
 
-  //     return () => {
-  //       typed.destroy(); // Cleanup Typed.js instance when the component unmounts
-  //     };
-  //   }, []);
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <div>
       <span id="element"></span>
@@ -21,7 +22,10 @@ export default function Main() {
         <div className="row">
           <div className="col-md-6">
             <h4>Hi, I am Rajnish</h4>
-            <h3>and I am a Passionate</h3>
+            <h3>
+              and I am a Passionate <br />
+              <span ref={el} />
+            </h3>
           </div>
           <div className="col-md-6 how-img">
             <div
