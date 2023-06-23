@@ -12,7 +12,8 @@ import JAVA from "../images/JAVA.json";
 import c from "../images/c.json";
 import CMS from "../images/CMS.json";
 import Lottie from "lottie-react";
-// import { FaJs } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function About() {
   const el = useRef(null);
@@ -38,10 +39,9 @@ export default function About() {
           <div class="p-2 w-100 bd-highlight">
             <img src="/assets/bg2.jpg" alt="" className="bg1" />
           </div>
-          <div class="p-2 flex-shrink-1 bd-highlight"></div>
         </div>
         <div className="col-md-4 text-white">
-          <button className="btn tech-stacks text-left mb-4 mx-2">
+          <button className="btn tech-stacks text-left mb-4">
             Rajnish Kumar Singh
           </button>
           <button className="btn tech-stacks mb-4">Age: 21yrs</button>
@@ -64,12 +64,34 @@ export default function About() {
           <button className="btn tech-stacks text-left mb-4">
             Tech-Domain: Web-Dev
           </button>
-          <button
-            className="btn tech-stacks text-left mb-4"
-            style={{ width: "500px" }}
-          >
-            Interests: Anchoring, Writing, Origami
-          </button>
+          <div className="buttons d-flex">
+            <button
+              className="btn resume-button my-3"
+              style={{ fontSize: "18px" }}
+            >
+              <a
+                href="https://github.com/rks-031"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github&nbsp;
+                <FaGithubSquare style={{ width: "25px", height: "25px" }} />
+              </a>
+            </button>
+            <button
+              className="btn resume-button my-3 mx-3"
+              style={{ fontSize: "18px" }}
+            >
+              <a
+                href="https://www.linkedin.com/in/rajnish-kumar-singh-2241b321b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn&nbsp;
+                <FaLinkedin style={{ width: "25px", height: "25px" }} />
+              </a>
+            </button>
+          </div>
         </div>
       </div>
       <hr />
