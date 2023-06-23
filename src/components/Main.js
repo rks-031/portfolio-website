@@ -30,6 +30,14 @@ export default function Main() {
               <h2>
                 <span ref={el} />
               </h2>
+              <div class="buttons">
+                <button
+                  class="btn resume-button my-3"
+                  style={{ fontSize: "18px" }}
+                >
+                  Download Resume
+                </button>
+              </div>
             </div>
           </div>
           <div className="col-md-6 how-img">

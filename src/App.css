@@ -71,3 +71,15 @@ screen and (max-height: 700px) {
   background: linear-gradient(to right, #41295a, #2f0743);
   color: white;
 }
+
+.resume-button {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  color: white;
+}
+
+.resume-button:hover {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  color: white;
+  transition-duration: 0.4s;
+  box-shadow: 2px 4px 3px 0 #ffefba, 0 17px 50px 0 #ffefba;
+}
