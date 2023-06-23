@@ -30,12 +30,18 @@ export default function Main() {
               <h2>
                 <span ref={el} />
               </h2>
-              <div class="buttons">
+              <div className="buttons">
                 <button
-                  class="btn resume-button my-3"
+                  className="btn resume-button my-3"
                   style={{ fontSize: "18px" }}
                 >
-                  Download Resume
+                  <a
+                    href="https://drive.google.com/file/d/1fL8vTEMCWzMESkpjmVzKHDsKrfFNFri-/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Download Resume
+                  </a>
                 </button>
               </div>
             </div>

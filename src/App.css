@@ -72,6 +72,11 @@ screen and (max-height: 700px) {
   color: white;
 }
 
+.buttons button a {
+  text-decoration: none;
+  color: white;
+}
+
 .resume-button {
   background: linear-gradient(to right, #7f00ff, #e100ff);
   color: white;

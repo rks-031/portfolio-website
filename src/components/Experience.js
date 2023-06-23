@@ -4,7 +4,11 @@ function Experience() {
   return (
     <div>
       <p className="text-white-50">What have I done till date?</p>
-      <h2 className="text-white">Tech Experiences & Knowledge</h2>
+      <div className="d-flex justify-content-left">
+        <button class="btn tech-stacks my-3">
+          Tech Experiences & Knowledge
+        </button>
+      </div>
       <br />
       <table class="table table-bordered text-white">
         <tbody>
