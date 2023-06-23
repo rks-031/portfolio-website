@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   background-color: rgba(37, 20, 53, 0.989);
   font-family: 'Poppins', sans-serif;
+  height: 100%;
 }

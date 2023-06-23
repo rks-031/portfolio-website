@@ -83,3 +83,40 @@ screen and (max-height: 700px) {
   transition-duration: 0.4s;
   box-shadow: 2px 4px 3px 0 #ffefba, 0 17px 50px 0 #ffefba;
 }
+
+.bg1 {
+  height: 600px;
+  width: fit-content;
+  border-radius: 30px;
+}
+
+.tech {
+  background-color: #ffefba;
+}
+
+/* .stacks {
+  display: inline-flex;
+  padding: 70px 73px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  background: #ffefba;
+} */
+
+.icons {
+  width: 150px;
+  height: 150px;
+}
+
+.tech-stacks {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  color: white;
+  transition-duration: 0.4s;
+  box-shadow: 2px 4px 3px 0 #ffefba, 0 17px 50px 0 #ffefba;
+  font-size: 25px;
+}
+
+.tech-stacks:hover {
+  color: rgb(198, 220, 96);
+}
