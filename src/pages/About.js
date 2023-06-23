@@ -1,16 +1,16 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import github from "../github.json";
-import git from "../git.json";
-import html from "../html.json";
-import css from "../css.json";
-import mongodb from "../mongodb.json";
-import node from "../node.json";
-import react from "../react.json";
-import JAVA from "../JAVA.json";
-import c from "../c.json";
-import CMS from "../CMS.json";
+import github from "../images/github.json";
+import git from "../images/git.json";
+import html from "../images/html.json";
+import css from "../images/css.json";
+import mongodb from "../images/mongodb.json";
+import node from "../images/node.json";
+import react from "../images/react.json";
+import JAVA from "../images/JAVA.json";
+import c from "../images/c.json";
+import CMS from "../images/CMS.json";
 import Lottie from "lottie-react";
 // import { FaJs } from "react-icons/fa";
 
