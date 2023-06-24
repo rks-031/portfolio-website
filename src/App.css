@@ -127,7 +127,7 @@ screen and (max-height: 700px) {
   background: linear-gradient(to right, #41295a, #2f0743);
   color: white;
   transition-duration: 0.4s;
-  box-shadow: 2px 4px 3px 0 #ffefba, 0 17px 50px 0 #ffefba;
+  box-shadow: 2px 4px 3px 0 #ffefba, 0 7px 25px 0 #ffefba;
   font-size: 25px;
 }
 

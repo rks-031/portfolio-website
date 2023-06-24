@@ -56,13 +56,13 @@ export default function About() {
           </button>
           <button
             className="btn tech-stacks1 mb-4 text-left"
-            style={{ width: "500px" }}
+            style={{ width: "420px" }}
           >
             Schooling: DAV Bistupur, Jharkhand
           </button>
           <button
             className="btn tech-stacks1 mb-4 text-left"
-            style={{ width: "400px" }}
+            style={{ width: "380px" }}
           >
             College: IIIT Bhubaneswar'25
           </button>
