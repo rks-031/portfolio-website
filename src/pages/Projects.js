@@ -96,72 +96,143 @@ export default function Projects() {
         <br />
         <hr />
         <br />
-        <div className="container1">
-          <div className="row mb-5 mt-5">
-            <div className="col d-flex justify-content-between">
-              <div className="card1">
-                <div className="image1 ml-1">
-                  <img src="/assets/pattern.png" alt="" />
-                  <div className="content1">
-                    <h5 class="card-title font-weight-bold">SRJ-Jwellery</h5>
-                    <p className="card-text">
-                      Promote your jewelry shop with this captivating React demo
-                      project. Showcase and describe your products to attract
-                      customers. #ReactJS #JewelleryShop
-                    </p>
-                    <a
-                      href="https://github.com/rks-031/SRJ-Jwellery.git"
-                      class="btn button-color"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Github Repository
-                    </a>
-                  </div>
+        <div className="row mb-5 mt-5">
+          <div className="col d-flex justify-content-between">
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/jwellery.jpg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">SRJ-Jwellery</h5>
+                  <p className="card-text">
+                    Promote your jewelry shop with this captivating React demo
+                    project. Showcase and describe your products to attract
+                    customers. #ReactJS #JewelleryShop
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/SRJ-Jwellery.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div className="card1">
-                <div className="image1 ml-1">
-                  <img src="/assets/weather.jpg" alt="" />
-                  <div className="content1">
-                    <h5 class="card-title font-weight-bold">weatherApp</h5>
-                    <p className="card-text">
-                      Real-time weather app. Integrates with OpenWeatherMap API
-                      to provide accurate weather information to users. #NodeJS
-                      #WeatherApp
-                    </p>
-                    <a
-                      href="https://github.com/rks-031/weatherApp.git"
-                      class="btn button-color"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Github Repository
-                    </a>
-                  </div>
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/weather.jpg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">weatherApp</h5>
+                  <p className="card-text">
+                    Real-time weather app. Integrates with OpenWeatherMap API to
+                    provide accurate weather information to users. #NodeJS
+                    #WeatherApp
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/weatherApp.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div className="card1">
-                <div className="image1 ml-1">
-                  <img src="/assets/form.png" alt="" />
-                  <div className="content1">
-                    <h5 class="card-title font-weight-bold">dynamicForm</h5>
-                    <p className="card-text">
-                      Embed this dynamic ReactJS form demo into any website.
-                      Versatile and customizable for various purposes. Easily
-                      scalable. #ReactJS #DynamicForm
-                    </p>
-                    <a
-                      href="https://github.com/rks-031/dynamicForm.git"
-                      class="btn button-color"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Github Repository
-                    </a>
-                  </div>
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/form.png" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">dynamicForm</h5>
+                  <p className="card-text">
+                    Embed this dynamic ReactJS form demo into any website.
+                    Versatile and customizable for various purposes. Easily
+                    scalable. #ReactJS #DynamicForm
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/dynamicForm.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="row mb-5 mt-5">
+          <div className="col d-flex justify-content-between">
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/text.png" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">textUtils</h5>
+                  <p className="card-text">
+                    User-friendly website with text manipulation tools.
+                    Word/Character counter,replace, and more.#TextUtils
+                    #TextManipulation #ReactJS
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/textUtils.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
+                  <br />
+                </div>
+              </div>
+            </div>
+
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/jokes.jpg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">jokesGenerator</h5>
+                  <p className="card-text">
+                    Enjoy hilarious jokes with this ReactJS mini app. Dynamic
+                    display of jokes and punchlines with toggle option for
+                    showing/hiding punchlines. #ReactJS #JokeGenerator
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/jokesGenerator.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/medibox.jpg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">mediBOX</h5>
+                  <p className="card-text">
+                    Experience mediBOX, a virtual hospital connecting people to
+                    healthcare. HTML, CSS, JS, ML, Node, MongoDB power this
+                    personalized platform. #mediBOX #VirtualHospital
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/mediBOX.git"
+                    class="btn button-color"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Repository
+                  </a>
                 </div>
               </div>
             </div>
