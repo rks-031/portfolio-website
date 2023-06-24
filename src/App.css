@@ -124,8 +124,8 @@ screen and (max-height: 700px) {
 
 .tech-stacks1 {
   background: linear-gradient(to right, #41295a, #2f0743);
-  color: white;
-  transition-duration: 0.4s;
+  color: rgb(221, 225, 201);
+  box-shadow: 2px 4px 3px 0 #f7f8f8;
   font-size: 25px;
 }
 

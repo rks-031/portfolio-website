@@ -42,16 +42,17 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-4 text-white">
-          <button className="btn tech-stacks text-left mb-4">
+          <button className="btn tech-stacks1 text-left mb-4">
             Rajnish Kumar Singh
           </button>
-          <button className="btn tech-stacks1 mb-4">Age: 21yrs</button>
-          <button className="btn tech-stacks mb-4">Horoscope: Libra</button>
+          <br />
+          <button className="btn tech-stacks1 mb-4 mr-3">Age: 21yrs</button>
+          <button className="btn tech-stacks1 mb-4">Horoscope: Libra</button>
           <button className="btn tech-stacks1 mb-4">
             Location: Jamshedpur, IN
           </button>
           <button
-            className="btn tech-stacks mb-4 text-left"
+            className="btn tech-stacks1 mb-4 text-left"
             style={{ width: "500px" }}
           >
             Schooling: DAV Bistupur, Jharkhand
@@ -62,7 +63,7 @@ export default function About() {
           >
             College: IIIT Bhubaneswar'25
           </button>
-          <button className="btn tech-stacks text-left mb-4">
+          <button className="btn tech-stacks1 text-left mb-4">
             Tech-Domain: Web-Dev
           </button>
           <div className="buttons d-flex">
