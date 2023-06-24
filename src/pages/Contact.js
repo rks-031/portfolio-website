@@ -49,6 +49,8 @@ export default function Contact() {
                   color: "white",
                   fontSize: "20px",
                 }}
+                target="_blank"
+                rel="noreferrer"
               >
                 +91-821-078-8702
               </a>
@@ -90,6 +92,8 @@ export default function Contact() {
                   color: "white",
                   fontSize: "20px",
                 }}
+                target="_blank"
+                rel="noreferrer"
               >
                 rks_031
               </a>
@@ -112,6 +116,8 @@ export default function Contact() {
                   color: "white",
                   fontSize: "20px",
                 }}
+                target="_blank"
+                rel="noreferrer"
               >
                 rajnish-kumar-singh
               </a>
