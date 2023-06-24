@@ -95,6 +95,28 @@ export default function About() {
         </div>
       </div>
       <hr />
+      <p className="text-white" style={{ fontSize: "18px" }}>
+        I'm a self-proclaimed workaholic with a passion for web development. I'm
+        always seeking new opportunities to challenge myself and expand my
+        skillset. For me, learning is a lifelong pursuit, and I enjoy staying
+        up-to-date. <br />
+        <br />
+        Whether I'm working on a personal project or collaborating with a team,
+        I'm always looking for ways to improve my skills and deliver the best
+        possible product. <br />
+        <br />
+        I've found that my greatest passion lies in the intersection of
+        opportunity and learning. There's nothing quite like the rush of
+        excitement that comes with taking on a new project or tackling a new
+        problem. And with every new experience, I've been able to deepen my
+        understanding of the world around me and become a more well-rounded
+        individual. <br />
+        <br />
+        Whether I'm working on a personal project or collaborating with a team,
+        I'm always striving to do my best and create something truly
+        exceptional.
+      </p>
+      <hr />
       <div className="d-flex justify-content-center">
         <button class="btn tech-stacks my-3">TECH STACKS</button>
       </div>
