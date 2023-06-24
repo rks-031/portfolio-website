@@ -47,6 +47,9 @@ export default function About() {
           </button>
           <br />
           <button className="btn tech-stacks1 mb-4 mr-3">Age: 21yrs</button>
+          <button className="btn tech-stacks1 mb-4 mr-3">
+            DOB: July 31, 2002
+          </button>
           <button className="btn tech-stacks1 mb-4">Horoscope: Libra</button>
           <button className="btn tech-stacks1 mb-4">
             Location: Jamshedpur, IN

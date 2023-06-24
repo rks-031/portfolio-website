@@ -4,6 +4,15 @@
 
 .header-name {
   font-size: 25px;
+  background: linear-gradient(to top, #41295a, #2f0743);
+  border-radius: 7px;
+  width: 100px;
+  box-shadow: 2px 4px 3px 0 #f7f8f8;
+}
+
+.header-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .links {
