@@ -41,6 +41,10 @@ export default function About() {
             <img src="/assets/bg2.jpg" alt="" className="bg1" />
           </div>
         </div>
+        <div class="d-flex" style={{ height: "200px" }}>
+          <div class="vr"></div>
+        </div>
+
         <div className="col-md-4 text-white">
           <button className="btn tech-stacks1 text-left mb-4">
             Rajnish Kumar Singh

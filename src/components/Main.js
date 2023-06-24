@@ -22,7 +22,7 @@ export default function Main() {
           <div className="col-md-6">
             <br />
             <br />
-            <div className="moderator">
+            <div>
               <h4>Hi, I am Rajnish</h4>
               <h2>
                 and I am a Passionate <br />
