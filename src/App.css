@@ -135,7 +135,7 @@ screen and (max-height: 700px) {
   background: linear-gradient(to right, #41295a, #2f0743);
   color: rgb(221, 225, 201);
   box-shadow: 2px 4px 3px 0 #f7f8f8;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .tech-stacks:hover {
