@@ -14,6 +14,7 @@ import CMS from "../images/CMS.json";
 import Lottie from "lottie-react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 export default function About() {
   const el = useRef(null);
@@ -44,9 +45,9 @@ export default function About() {
           <button className="btn tech-stacks text-left mb-4">
             Rajnish Kumar Singh
           </button>
-          <button className="btn tech-stacks mb-4">Age: 21yrs</button>
+          <button className="btn tech-stacks1 mb-4">Age: 21yrs</button>
           <button className="btn tech-stacks mb-4">Horoscope: Libra</button>
-          <button className="btn tech-stacks mb-4">
+          <button className="btn tech-stacks1 mb-4">
             Location: Jamshedpur, IN
           </button>
           <button
@@ -56,7 +57,7 @@ export default function About() {
             Schooling: DAV Bistupur, Jharkhand
           </button>
           <button
-            className="btn tech-stacks mb-4 text-left"
+            className="btn tech-stacks1 mb-4 text-left"
             style={{ width: "400px" }}
           >
             College: IIIT Bhubaneswar'25
@@ -66,8 +67,8 @@ export default function About() {
           </button>
           <div className="buttons d-flex">
             <button
-              className="btn resume-button my-3"
-              style={{ fontSize: "18px" }}
+              className="btn resume-button my-3 mx-1"
+              style={{ fontSize: "15px" }}
             >
               <a
                 href="https://github.com/rks-031"
@@ -80,7 +81,7 @@ export default function About() {
             </button>
             <button
               className="btn resume-button my-3 mx-3"
-              style={{ fontSize: "18px" }}
+              style={{ fontSize: "15px" }}
             >
               <a
                 href="https://www.linkedin.com/in/rajnish-kumar-singh-2241b321b/"
@@ -89,6 +90,19 @@ export default function About() {
               >
                 LinkedIn&nbsp;
                 <FaLinkedin style={{ width: "25px", height: "25px" }} />
+              </a>
+            </button>
+            <button
+              className="btn resume-button my-3"
+              style={{ fontSize: "15px" }}
+            >
+              <a
+                href="https://youtube.com/playlist?list=PL5YUk3UMmna6K_Rk_8nfN3qE2NJeDrK9X"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Youtube&nbsp;
+                <FaYoutube style={{ width: " 25px", height: "25px" }} />
               </a>
             </button>
           </div>
@@ -118,7 +132,7 @@ export default function About() {
       </p>
       <hr />
       <div className="d-flex justify-content-center">
-        <button class="btn tech-stacks my-3">TECH STACKS</button>
+        <button class="btn tech-stacks my-3">TECH SKILLS</button>
       </div>
       <br />
       <div className="row justify-content-center d-flex">

@@ -122,7 +122,20 @@ screen and (max-height: 700px) {
   font-size: 25px;
 }
 
+.tech-stacks1 {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  color: white;
+  transition-duration: 0.4s;
+  font-size: 25px;
+}
+
 .tech-stacks:hover {
+  color: rgb(176, 192, 105);
+  box-shadow: 2px 4px 3px 0 #f7f8f8, 0 17px 50px 0 #acbb78;
+  top: 2px;
+}
+
+.tech-stacks1:hover {
   color: rgb(176, 192, 105);
   box-shadow: 2px 4px 3px 0 #f7f8f8, 0 17px 50px 0 #acbb78;
   top: 2px;
