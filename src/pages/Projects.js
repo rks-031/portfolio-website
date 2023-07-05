@@ -144,16 +144,14 @@ export default function Projects() {
 
             <div className="card1">
               <div className="image1 ml-1">
-                <img src="/assets/form.png" alt="" />
+                <img src="/assets/2048.jpg" alt="" />
                 <div className="content1">
-                  <h5 class="card-title font-weight-bold">dynamicForm</h5>
+                  <h5 class="card-title font-weight-bold">2048-animated</h5>
                   <p className="card-text">
-                    Embed this dynamic ReactJS form demo into any website.
-                    Versatile and customizable for various purposes. Easily
-                    scalable. #ReactJS #DynamicForm
+                    A nostalgic and visually appealing ReactJS version of the classic 2048 game. Engaging gameplay for all ages. #ReactJS #2048Game #Nostalgia
                   </p>
                   <a
-                    href="https://github.com/rks-031/dynamicForm.git"
+                    href="https://github.com/rks-031/2048-animated.git"
                     class="btn button-color"
                     target="_blank"
                     rel="noreferrer"
