@@ -45,7 +45,7 @@ function Experience() {
             <th scope="row" className="text-white-50">
               V.
             </th>
-            <td colspan="2">Hypertext Processor (PHP)</td>
+            <td colspan="2">Hypertext Processor (PHP) - Basic</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
