@@ -16,7 +16,9 @@ function Experience() {
             <th scope="row" className="text-white-50">
               I.
             </th>
-            <td colspan="2">Contributor in GirlScript Summer Of Code-2023</td>
+            <td colspan="2">
+              Contributor in GirlScript Summer Of Code-2023 (Among top 150)
+            </td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
@@ -37,7 +39,7 @@ function Experience() {
             <th scope="row" className="text-white-50">
               IV.
             </th>
-            <td colspan="2">MERN STACK Developer</td>
+            <td colspan="2">MERN STACK Development</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
@@ -48,6 +50,12 @@ function Experience() {
           <tr>
             <th scope="row" className="text-white-50">
               VI.
+            </th>
+            <td colspan="2">WordPress</td>
+          </tr>
+          <tr>
+            <th scope="row" className="text-white-50">
+              VII.
             </th>
             <td colspan="2">
               Applied in Microsoft Student Learn Ambassador Programme-2023
