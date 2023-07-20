@@ -20,6 +20,14 @@ function Experience() {
               Contributor in GirlScript Summer Of Code-2023 (Among top 150)
             </td>
           </tr>
+              <tr>
+            <th scope="row" className="text-white-50">
+              VII.
+            </th>
+            <td colspan="2">
+              Microsoft Learn Student Ambassador-2023
+            </td>
+          </tr>
           <tr>
             <th scope="row" className="text-white-50">
               II.
@@ -52,14 +60,6 @@ function Experience() {
               VI.
             </th>
             <td colspan="2">WordPress</td>
-          </tr>
-          <tr>
-            <th scope="row" className="text-white-50">
-              VII.
-            </th>
-            <td colspan="2">
-              Microsoft Learn Student Ambassador-2023
-            </td>
           </tr>
         </tbody>
       </table>
