@@ -31,7 +31,7 @@ function Experience() {
               III.
             </th>
             <td colspan="2">
-              IT & Web Development Intern @ BasketHunt Pvt. Ltd. (May'23 -
+              IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
               present)
             </td>
           </tr>
@@ -58,8 +58,7 @@ function Experience() {
               VII.
             </th>
             <td colspan="2">
-              Applied in Microsoft Student Learn Ambassador Programme-2023
-              (Results Awaited)
+              Microsoft Learn Student Ambassador-2023
             </td>
           </tr>
         </tbody>
