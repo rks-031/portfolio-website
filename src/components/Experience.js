@@ -17,7 +17,7 @@ function Experience() {
               I.
             </th>
             <td colspan="2">
-              Contributor in GirlScript Summer Of Code-2023 (Among top 150)
+              Contributor in GirlScript Summer Of Code-2023 (Among top 130)
             </td>
           </tr>
               <tr>
