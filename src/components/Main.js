@@ -36,7 +36,7 @@ export default function Main() {
                   style={{ fontSize: "18px" }}
                 >
                   <a
-                    href="https://drive.google.com/file/d/14iaj2RuLcXpcNAq1PXrXg72B9hq05L85/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1Q_2IhIduJUxeUaBOtUonzCQNA14OiOGn/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                   >
