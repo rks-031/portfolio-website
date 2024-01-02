@@ -4,6 +4,9 @@ My portfolio website: created using ReactJS.
 # Tech Stacks Used
 HTML, CSS, JS, ReactJS
 
+# Project Deployed on
+`Vercel`
+
 # Website Link
 https://rks-portfolio-site.vercel.app/
 
