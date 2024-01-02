@@ -20,13 +20,11 @@ function Experience() {
               Contributor in GirlScript Summer Of Code-2023 (Among top 130)
             </td>
           </tr>
-              <tr>
+          <tr>
             <th scope="row" className="text-white-50">
               VII.
             </th>
-            <td colspan="2">
-              Microsoft Learn Student Ambassador-2023
-            </td>
+            <td colspan="2">Beta Microsoft Learn Student Ambassador-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
@@ -40,7 +38,7 @@ function Experience() {
             </th>
             <td colspan="2">
               IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
-              present)
+              Aug'23)
             </td>
           </tr>
           <tr>
@@ -48,12 +46,6 @@ function Experience() {
               IV.
             </th>
             <td colspan="2">MERN STACK Development</td>
-          </tr>
-          <tr>
-            <th scope="row" className="text-white-50">
-              V.
-            </th>
-            <td colspan="2">Hypertext Processor (PHP) - Basic</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">

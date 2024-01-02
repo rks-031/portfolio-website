@@ -38,7 +38,7 @@ export default function About() {
       <div className="row justify-content-around">
         <div className="col-md-4">
           <div class="p-2 w-100 bd-highlight">
-            <img src="/assets/bg2.jpg" alt="" className="bg1" />
+            <img src="/assets/rajnish_mlsa.jpg" alt="" className="bg1" />
           </div>
         </div>
         <div class="d-flex" style={{ height: "200px" }}>
