@@ -36,11 +36,11 @@ export default function Main() {
                   style={{ fontSize: "18px" }}
                 >
                   <a
-                    href="https://drive.google.com/file/d/1X3ev6pLkkU47q7yZTOr49u9h4jlJZqr8/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1k2mkMrfX79prr3Jc9zYmAuyjzK3Hm3vQ/view?usp=drive_link"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Download Resume
+                    Resume
                   </a>
                 </button>
               </div>
