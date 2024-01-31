@@ -22,19 +22,19 @@ function Experience() {
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              VII.
+              II.
             </th>
             <td colspan="2">Beta Microsoft Learn Student Ambassador-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              II.
+              III.
             </th>
             <td colspan="2">Consolation Prize in Advaita HackFest-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              III.
+              IV.
             </th>
             <td colspan="2">
               IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
@@ -43,7 +43,7 @@ function Experience() {
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              IV.
+              V.
             </th>
             <td colspan="2">MERN STACK Development</td>
           </tr>
