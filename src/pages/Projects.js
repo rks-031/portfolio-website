@@ -33,8 +33,7 @@ export default function Projects() {
                   <h5 class="card-title font-weight-bold">patternPrinting</h5>
                   <p className="card-text">
                     Java patterns: Solve pattern printing problems for
-                    placements. Essential codes for various pattern types. #Java
-                    #PlacementPreparation
+                    placements. Essential codes for various pattern types.
                   </p>
                   <a
                     href="https://github.com/rks-031/patternPrinting.git"
@@ -78,7 +77,7 @@ export default function Projects() {
                   <p className="card-text">
                     Personalize your Github overview page with this special
                     repository. Raw code included for easy customization &
-                    personalization. #Github #CodeSnippet
+                    personalization.
                   </p>
                   <a
                     href="https://github.com/rks-031/rks-031.git"
@@ -127,8 +126,7 @@ export default function Projects() {
                   <h5 class="card-title font-weight-bold">weatherApp</h5>
                   <p className="card-text">
                     Real-time weather app. Integrates with OpenWeatherMap API to
-                    provide accurate weather information to users. #NodeJS
-                    #WeatherApp
+                    provide accurate weather information to users.
                   </p>
                   <a
                     href="https://github.com/rks-031/weatherApp.git"
@@ -148,7 +146,8 @@ export default function Projects() {
                 <div className="content1">
                   <h5 class="card-title font-weight-bold">2048-animated</h5>
                   <p className="card-text">
-                    A nostalgic and visually appealing ReactJS version of the classic 2048 game. Engaging gameplay for all ages. #ReactJS #2048Game #Nostalgia
+                    A nostalgic and visually appealing ReactJS version of the
+                    classic 2048 game. Engaging gameplay for all ages.
                   </p>
                   <a
                     href="https://github.com/rks-031/2048-animated.git"
@@ -175,8 +174,7 @@ export default function Projects() {
                   <h5 class="card-title font-weight-bold">textUtils</h5>
                   <p className="card-text">
                     User-friendly website with text manipulation tools.
-                    Word/Character counter,replace, and more.#TextUtils
-                    #TextManipulation #ReactJS
+                    Word/Character counter,replace, and more.
                   </p>
                   <a
                     href="https://github.com/rks-031/textUtils.git"
@@ -199,7 +197,7 @@ export default function Projects() {
                   <p className="card-text">
                     Enjoy hilarious jokes with this ReactJS mini app. Dynamic
                     display of jokes and punchlines with toggle option for
-                    showing/hiding punchlines. #ReactJS #JokeGenerator
+                    showing/hiding punchlines.
                   </p>
                   <a
                     href="https://github.com/rks-031/jokesGenerator.git"
@@ -221,7 +219,7 @@ export default function Projects() {
                   <p className="card-text">
                     Experience mediBOX, a virtual hospital connecting people to
                     healthcare. HTML, CSS, JS, ML, Node, MongoDB power this
-                    personalized platform. #mediBOX #VirtualHospital
+                    personalized platform.
                   </p>
                   <a
                     href="https://github.com/rks-031/mediBOX.git"
