@@ -18,7 +18,7 @@ export default function Projects() {
   }, []);
   return (
     <div>
-      <h1 className="text-center projects my-2 pb-2 font-weight-bold">
+      <h1 className="text-center projects font-weight-bold">
         <span ref={el} />
       </h1>
       <br />
