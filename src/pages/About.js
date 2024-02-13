@@ -134,9 +134,8 @@ export default function About() {
         understanding of the world around me and become a more well-rounded
         individual. <br />
         <br />
-        Whether I'm working on a personal project or collaborating with a team,
-        I'm always striving to do my best and create something truly
-        exceptional.
+        Whether I'm engaged in personal projects or team collaborations, I
+        consistently aim to deliver my utmost and produce remarkable outcomes.
       </p>
       <hr />
       <div className="d-flex justify-content-center">
