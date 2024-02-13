@@ -28,20 +28,23 @@ export default function Projects() {
           <div className="col d-flex justify-content-between">
             <div className="card1">
               <div className="image1 ml-1">
-                <img src="/assets/pattern.png" alt="" />
+                <img src="/assets/MLSA.jpg" alt="" />
                 <div className="content1">
-                  <h5 class="card-title font-weight-bold">patternPrinting</h5>
+                  <h5 class="card-title font-weight-bold mt-2">
+                    MLSA-IIIT-Bh-Chapter
+                  </h5>
                   <p className="card-text">
-                    Java patterns: Solve pattern printing problems for
-                    placements. Essential codes for various pattern types.
+                    MLSA @ IIIT-Bh is a tech hub for students of IIIT-Bh,
+                    fostering collaboration, skill enhancement, and community
+                    impact.
                   </p>
                   <a
-                    href="https://github.com/rks-031/patternPrinting.git"
-                    class="btn button-color"
+                    href="https://github.com/rks-031/MLSA_IIITBH.git"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -55,15 +58,15 @@ export default function Projects() {
                   <p className="card-text">
                     reate hilarious memes on the fly with this dynamic ReactJS
                     meme generator. Add text captions to images for endless
-                    customization. #ReactJS #MemeGenerator
+                    customization.
                   </p>
                   <a
                     href="https://github.com/rks-031/memeGenerator.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -71,21 +74,20 @@ export default function Projects() {
 
             <div className="card1">
               <div className="image1 ml-1">
-                <img src="/assets/overview.jpg" alt="" />
+                <img src="/assets/text.png" alt="" />
                 <div className="content1">
-                  <h5 class="card-title font-weight-bold">rks-031</h5>
+                  <h5 class="card-title font-weight-bold">textUtils</h5>
                   <p className="card-text">
-                    Personalize your Github overview page with this special
-                    repository. Raw code included for easy customization &
-                    personalization.
+                    User-friendly website with text manipulation tools.
+                    Word/Character counter,replace, and more.
                   </p>
                   <a
-                    href="https://github.com/rks-031/rks-031.git"
-                    class="btn button-color"
+                    href="https://github.com/rks-031/textUtils.git"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -105,15 +107,15 @@ export default function Projects() {
                   <p className="card-text">
                     Promote your jewelry shop with this captivating React demo
                     project. Showcase and describe your products to attract
-                    customers. #ReactJS #JewelleryShop
+                    customers.
                   </p>
                   <a
                     href="https://github.com/rks-031/SRJ-Jwellery.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -130,11 +132,11 @@ export default function Projects() {
                   </p>
                   <a
                     href="https://github.com/rks-031/weatherApp.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -151,11 +153,11 @@ export default function Projects() {
                   </p>
                   <a
                     href="https://github.com/rks-031/2048-animated.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -169,20 +171,21 @@ export default function Projects() {
           <div className="col d-flex justify-content-between">
             <div className="card1">
               <div className="image1 ml-1">
-                <img src="/assets/text.png" alt="" />
+                <img src="/assets/overview.jpg" alt="" />
                 <div className="content1">
-                  <h5 class="card-title font-weight-bold">textUtils</h5>
+                  <h5 class="card-title font-weight-bold">rks-031</h5>
                   <p className="card-text">
-                    User-friendly website with text manipulation tools.
-                    Word/Character counter,replace, and more.
+                    Personalize your Github overview page with this special
+                    repository. Raw code included for easy customization &
+                    personalization.
                   </p>
                   <a
-                    href="https://github.com/rks-031/textUtils.git"
-                    class="btn button-color"
+                    href="https://github.com/rks-031/rks-031.git"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                   <br />
                 </div>
@@ -201,11 +204,11 @@ export default function Projects() {
                   </p>
                   <a
                     href="https://github.com/rks-031/jokesGenerator.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
@@ -218,16 +221,15 @@ export default function Projects() {
                   <h5 class="card-title font-weight-bold">mediBOX</h5>
                   <p className="card-text">
                     Experience mediBOX, a virtual hospital connecting people to
-                    healthcare. HTML, CSS, JS, ML, Node, MongoDB power this
-                    personalized platform.
+                    healthcare.
                   </p>
                   <a
                     href="https://github.com/rks-031/mediBOX.git"
-                    class="btn button-color"
+                    class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github Repository
+                    Github
                   </a>
                 </div>
               </div>
