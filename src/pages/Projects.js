@@ -95,7 +95,7 @@ export default function Projects() {
           </div>
         </div>
         <br />
-        <hr />
+        <br />
         <br />
         <div className="row mb-5 mt-5">
           <div className="col d-flex justify-content-between">
@@ -226,6 +226,60 @@ export default function Projects() {
                   </p>
                   <a
                     href="https://github.com/rks-031/mediBOX.git"
+                    class="btn button-color d-block mx-auto"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="row mb-5 mt-5">
+          <div className="col d-flex justify-content-between">
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/bookmark.jpg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold mt-2">
+                    yt-bookmark-googleExtension
+                  </h5>
+                  <p className="card-text">
+                    Enables users to effortlessly add bookmarks to specific
+                    timestamps within YTvideos, enabling quick navigation to
+                    important moments.
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/yt-bookmark-googleExtension.git"
+                    class="btn button-color d-block mx-auto"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card1">
+              <div className="image1 ml-1">
+                <img src="/assets/browser-locker.jpeg" alt="" />
+                <div className="content1">
+                  <h5 class="card-title font-weight-bold">
+                    Browser-Locker-Extension
+                  </h5>
+                  <p className="card-text">
+                    A productivity solution that enhances security. Proactively
+                    prevents 3rd-party access, boosts productivity with
+                    auto-lock, password authentication.
+                  </p>
+                  <a
+                    href="https://github.com/rks-031/Browser-Locker.git"
                     class="btn button-color d-block mx-auto"
                     target="_blank"
                     rel="noreferrer"
