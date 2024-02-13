@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* .quattrocento-sans-regular {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+} */
+
 * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
+        /* font-family: "Poppins", sans-serif; */
 }
 
 .container1 {
@@ -60,6 +68,7 @@
         visibility: hidden;
         opacity: 0;
         transition: 0.3s ease-in-out;
+        font-family: "Quattrocento Sans", sans-serif;
 }
 
 .container1 .card1:hover .content1 {
