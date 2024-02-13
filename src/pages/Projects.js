@@ -220,8 +220,9 @@ export default function Projects() {
                 <div className="content1">
                   <h5 class="card-title font-weight-bold">mediBOX</h5>
                   <p className="card-text">
-                    Experience mediBOX, a virtual hospital connecting people to
-                    healthcare.
+                    Discover mediBOX: a virtual hospital offering seamless
+                    access to medical services. Consult doctors, schedule
+                    appointments, and receive prescriptions from anywhere.
                   </p>
                   <a
                     href="https://github.com/rks-031/mediBOX.git"
