@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "../project.css";
 
@@ -16,6 +15,7 @@ export default function Projects() {
       typed.destroy();
     };
   }, []);
+
   return (
     <div>
       <h1 className="text-center projects font-weight-bold">
@@ -24,271 +24,119 @@ export default function Projects() {
       <br />
       <br />
       <div className="container1">
+        {/* Row 1 */}
         <div className="row mb-5 mt-5">
-          <div className="col d-flex justify-content-between">
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/MLSA.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold mt-2">
-                    MLSA-IIIT-Bh-Chapter
-                  </h5>
-                  <p className="card-text">
-                    MLSA @ IIIT-Bh is a tech hub for students of IIIT-Bh,
-                    fostering collaboration, skill enhancement, and community
-                    impact.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/MLSA_IIITBH.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/meme.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">memeGenerator</h5>
-                  <p className="card-text">
-                    reate hilarious memes on the fly with this dynamic ReactJS
-                    meme generator. Add text captions to images for endless
-                    customization.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/memeGenerator.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/text.png" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">textUtils</h5>
-                  <p className="card-text">
-                    User-friendly website with text manipulation tools.
-                    Word/Character counter,replace, and more.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/textUtils.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProjectCard
+            image="/assets/MLSA.jpg"
+            title="MLSA-IIIT-Bh-Chapter"
+            description="MLSA @ IIIT-Bh is a tech hub for students of IIIT-Bh, fostering collaboration, skill enhancement, and community impact."
+            githubLink="https://github.com/rks-031/MLSA_IIITBH.git"
+          />
+          <ProjectCard
+            image="/assets/meme.jpg"
+            title="memeGenerator"
+            description="Create hilarious memes on the fly with this dynamic ReactJS meme generator. Add text captions to images for endless customization."
+            githubLink="https://github.com/rks-031/memeGenerator.git"
+          />
         </div>
-        <br />
-        <br />
-        <br />
+        {/* Row 2 */}
         <div className="row mb-5 mt-5">
-          <div className="col d-flex justify-content-between">
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/jwellery.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">SRJ-Jwellery</h5>
-                  <p className="card-text">
-                    Promote your jewelry shop with this captivating React demo
-                    project. Showcase and describe your products to attract
-                    customers.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/SRJ-Jwellery.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/weather.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">weatherApp</h5>
-                  <p className="card-text">
-                    Real-time weather app. Integrates with OpenWeatherMap API to
-                    provide accurate weather information to users.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/weatherApp.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/2048.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">2048-animated</h5>
-                  <p className="card-text">
-                    A nostalgic and visually appealing ReactJS version of the
-                    classic 2048 game. Engaging gameplay for all ages.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/2048-animated.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProjectCard
+            image="/assets/text.png"
+            title="textUtils"
+            description="User-friendly website with text manipulation tools. Word/Character counter, replace, and more."
+            githubLink="https://github.com/rks-031/textUtils.git"
+          />
+          <ProjectCard
+            image="/assets/jwellery.jpg"
+            title="SRJ-Jwellery"
+            description="Promote your jewelry shop with this captivating React demo project. Showcase and describe your products to attract customers."
+            githubLink="https://github.com/rks-031/SRJ-Jwellery.git"
+          />
         </div>
-        <br />
-        <br />
-        <br />
+        {/* Row 3 */}
         <div className="row mb-5 mt-5">
-          <div className="col d-flex justify-content-between">
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/overview.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">rks-031</h5>
-                  <p className="card-text">
-                    Personalize your Github overview page with this special
-                    repository. Raw code included for easy customization &
-                    personalization.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/rks-031.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                  <br />
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/jokes.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">jokesGenerator</h5>
-                  <p className="card-text">
-                    Enjoy hilarious jokes with this ReactJS mini app. Dynamic
-                    display of jokes and punchlines with toggle option for
-                    showing/hiding punchlines.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/jokesGenerator.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/medibox.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">mediBOX</h5>
-                  <p className="card-text">
-                    Discover mediBOX: a virtual hospital offering seamless
-                    access to medical services. Consult doctors, schedule
-                    appointments, and receive prescriptions from anywhere.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/mediBOX.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProjectCard
+            image="/assets/weather.jpg"
+            title="weatherApp"
+            description="Real-time weather app. Integrates with OpenWeatherMap API to provide accurate weather information to users."
+            githubLink="https://github.com/rks-031/weatherApp.git"
+          />
+          <ProjectCard
+            image="/assets/2048.jpg"
+            title="2048-animated"
+            description="A nostalgic and visually appealing ReactJS version of the classic 2048 game. Engaging gameplay for all ages."
+            githubLink="https://github.com/rks-031/2048-animated.git"
+          />
         </div>
-        <br />
-        <br />
-        <br />
+        {/* Row 4 */}
         <div className="row mb-5 mt-5">
-          <div className="col d-flex justify-content-between">
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/bookmark.jpg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold mt-2">
-                    yt-bookmark-googleExtension
-                  </h5>
-                  <p className="card-text">
-                    Enables users to effortlessly add bookmarks to specific
-                    timestamps within YTvideos, enabling quick navigation to
-                    important moments.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/yt-bookmark-googleExtension.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
+          <ProjectCard
+            image="/assets/overview.jpg"
+            title="rks-031"
+            description="Personalize your Github overview page with this special repository. Raw code included for easy customization & personalization."
+            githubLink="https://github.com/rks-031/rks-031.git"
+          />
+          <ProjectCard
+            image="/assets/jokes.jpg"
+            title="jokesGenerator"
+            description="Enjoy hilarious jokes with this ReactJS mini app. Dynamic display of jokes and punchlines with toggle option for showing/hiding punchlines."
+            githubLink="https://github.com/rks-031/jokesGenerator.git"
+          />
+        </div>
+        {/* Row 5 */}
+        <div className="row mb-5 mt-5">
+          <ProjectCard
+            image="/assets/medibox.jpg"
+            title="mediBOX"
+            description="Discover mediBOX: a virtual hospital offering seamless access to medical services. Consult doctors, schedule appointments, and receive prescriptions from anywhere."
+            githubLink="https://github.com/rks-031/mediBOX.git"
+          />
+          <ProjectCard
+            image="/assets/bookmark.jpg"
+            title="yt-bookmark-googleExtension"
+            description="Enables users to effortlessly add bookmarks to specific timestamps within YT videos, enabling quick navigation to important moments."
+            githubLink="https://github.com/rks-031/yt-bookmark-googleExtension.git"
+          />
+        </div>
+        {/* Row 6 */}
+        <div className="row mb-5 mt-5">
+          <ProjectCard
+            image="/assets/browser-locker.jpeg"
+            title="Browser-Locker-Extension"
+            description="A productivity solution that enhances security. Proactively prevents 3rd-party access, boosts productivity with auto-lock, password authentication."
+            githubLink="https://github.com/rks-031/Browser-Locker.git"
+          />
+          <ProjectCard
+            image="/assets/dsa.png"
+            title="DSA-CodeHelp-LB"
+            description="Data Structures and Algorithms (DSA) are crucial in computer science. Topics covered include arrays, strings, linked lists, stacks, queues, etc. each with various operations and algorithms for efficient problem-solving."
+            githubLink="https://github.com/rks-031/DSA-codehelp-LB.git"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
 
-            <div className="card1">
-              <div className="image1 ml-1">
-                <img src="/assets/browser-locker.jpeg" alt="" />
-                <div className="content1">
-                  <h5 class="card-title font-weight-bold">
-                    Browser-Locker-Extension
-                  </h5>
-                  <p className="card-text">
-                    A productivity solution that enhances security. Proactively
-                    prevents 3rd-party access, boosts productivity with
-                    auto-lock, password authentication.
-                  </p>
-                  <a
-                    href="https://github.com/rks-031/Browser-Locker.git"
-                    class="btn button-color d-block mx-auto"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                </div>
-              </div>
-            </div>
+// ProjectCard component
+function ProjectCard({ image, title, description, githubLink }) {
+  return (
+    <div className="col-sm-6 mb-4">
+      <div className="card1">
+        <div className="image1 ml-1">
+          <img src={image} alt="" />
+          <div className="content1">
+            <h5 className="card-title font-weight-bold mt-3 ">{title}</h5>
+            <p className="card-text">{description}</p>
+            <a
+              href={githubLink}
+              className="btn button-color d-block mx-auto"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </div>
         </div>
       </div>
