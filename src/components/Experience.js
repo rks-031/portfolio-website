@@ -17,24 +17,34 @@ function Experience() {
               I.
             </th>
             <td colspan="2">
-              132nd rank worldwide in GirlScript Summer of Code 2023 with 14 PRs merged.
+              Project Mentor for MeitY Startup Hub for their Product Karmayogi
+              Bharat under Code for GovTech (C4GT) 2024.
             </td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
               II.
             </th>
+            <td colspan="2">
+              132nd rank worldwide in GirlScript Summer of Code 2023 with 14 PRs
+              merged.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" className="text-white-50">
+              IIT.
+            </th>
             <td colspan="2">Beta Microsoft Learn Student Ambassador-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              III.
+              IV.
             </th>
             <td colspan="2">Podium finish in Advaita HackFest-2023</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              IV.
+              V.
             </th>
             <td colspan="2">
               Ex - IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
@@ -43,13 +53,13 @@ function Experience() {
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              V.
+              VI.
             </th>
-            <td colspan="2">MERN STACK Development</td>
+            <td colspan="2">MERN STACK</td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              VI.
+              VII.
             </th>
             <td colspan="2">WordPress</td>
           </tr>
