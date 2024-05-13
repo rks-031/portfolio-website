@@ -17,7 +17,7 @@ function Experience() {
               I.
             </th>
             <td colspan="2">
-              Contributor in GirlScript Summer Of Code-2023 (Among top 130)
+              132nd rank worldwide in GirlScript Summer of Code 2023 with 14 PRs merged.
             </td>
           </tr>
           <tr>
@@ -37,7 +37,7 @@ function Experience() {
               IV.
             </th>
             <td colspan="2">
-              IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
+              Ex - IT & Web Development Intern @ BasketHunt Pvt. Ltd. (June'23 -
               Aug'23)
             </td>
           </tr>
