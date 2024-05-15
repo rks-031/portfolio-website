@@ -36,11 +36,11 @@ export default function Main() {
                   style={{ fontSize: "18px" }}
                 >
                   <a
-                    href="https://drive.google.com/uc?export=download&id=18qxdZ0TDvgrkeH4CH3F4_V5g1w3wF1Dp"
+                    href="https://drive.google.com/uc?export=download&id=1AYtFybMwpGAhtXU_YRPYioI6iqJpOGHS"
                     download="Rajnish_Kumar_Singh.pdf"
                     rel="noreferrer"
                   >
-                    Resume
+                    Download Resume
                   </a>
                 </button>
               </div>
