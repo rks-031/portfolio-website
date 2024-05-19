@@ -35,11 +35,12 @@ export default function Main() {
                   className="btn resume-button my-3"
                   style={{ fontSize: "18px" }}
                 >
-                  <a
-                    href="https://drive.google.com/uc?export=download&id=1AYtFybMwpGAhtXU_YRPYioI6iqJpOGHS"
-                    download="Rajnish_Kumar_Singh.pdf"
-                    rel="noreferrer"
-                  >
+                  <a href="https://drive.google.com/uc?export=download&id=1Tm-2PP-ZcTCr1Rsa-WBqmJwTCePv5GyF" 
+                  download="Rajnish_Kumar_Singh.pdf" 
+                    rel="noreferrer">
+                    Download Resume
+                  </a>
+
                     Download Resume
                   </a>
                 </button>
