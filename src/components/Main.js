@@ -35,7 +35,7 @@ export default function Main() {
                   className="btn resume-button my-3"
                   style={{ fontSize: "18px" }}
                 >
-                  <a href="https://drive.google.com/uc?export=download&id=1Tm-2PP-ZcTCr1Rsa-WBqmJwTCePv5GyF" 
+                  <a href="https://drive.google.com/uc?id=10qxpxcauD9Jgr8U7y_HQ4n7dt7bYATaV&export=download" 
                   download="Rajnish_Kumar_Singh.pdf" 
                     rel="noreferrer">
                     Download Resume
