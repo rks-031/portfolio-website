@@ -7,7 +7,7 @@ export default function Footer() {
         className="text-white pb-3 pt-3 text-align-center text-center fixed-bottom"
         style={{ background: "linear-gradient(to bottom, #141e30, #243b55)" }}
       >
-        Copyright &copy; Made with 💜 by Rajnish | All Rights Reserved
+        Made with 💜 by Rajnish
       </div>
     </div>
   );
