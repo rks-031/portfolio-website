@@ -36,9 +36,10 @@ export default function Main() {
                   style={{ fontSize: "18px" }}
                 >
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1AYtFybMwpGAhtXU_YRPYioI6iqJpOGHS"
+                    href="https://drive.google.com/uc?id=10qxpxcauD9Jgr8U7y_HQ4n7dt7bYATaV&export=download"
                     download="Rajnish_Kumar_Singh.pdf"
                     rel="noreferrer"
+                    style={{ textDecoration: "none", color: "inherit" }}
                   >
                     Download Resume
                   </a>
