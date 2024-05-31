@@ -6,7 +6,7 @@ function Experience() {
       <p className="text-white-50">What have I done till date?</p>
       <div className="d-flex justify-content-left">
         <button class="btn tech-stacks my-3">
-          Tech Experiences & Knowledge
+          Achievements/Responsibilities
         </button>
       </div>
       <br />
@@ -40,7 +40,11 @@ function Experience() {
             <th scope="row" className="text-white-50">
               IV.
             </th>
-            <td colspan="2">Podium finish in Advaita HackFest-2023</td>
+            <td colspan="2">
+              Achieved a podium finish for Medibox-a healthcare website, among
+              440 participants in the hackfest conducted by IIIT Bhubaneswar
+              during the annual fest Advaita.
+            </td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
@@ -55,13 +59,18 @@ function Experience() {
             <th scope="row" className="text-white-50">
               VI.
             </th>
-            <td colspan="2">MERN STACK</td>
+            <td colspan="2">
+              Secretary - IIIT MegaHeartz Society, Student Lead - Student Media
+              team, and Placement Coordinator, IIIT Bhubaneswar
+            </td>
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
               VII.
             </th>
-            <td colspan="2">WordPress</td>
+            <td colspan="2">
+              Secured 10th rank in city (Jamshedpur) in AISSCE 2020
+            </td>
           </tr>
         </tbody>
       </table>
