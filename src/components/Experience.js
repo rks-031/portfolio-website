@@ -32,7 +32,7 @@ function Experience() {
           </tr>
           <tr>
             <th scope="row" className="text-white-50">
-              IIT.
+              III.
             </th>
             <td colspan="2">Beta Microsoft Learn Student Ambassador-2023</td>
           </tr>

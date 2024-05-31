@@ -1,20 +1,25 @@
-import React from "react";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import github from "../images/github.json";
-import git from "../images/git.json";
-import html from "../images/html.json";
-import css from "../images/css.json";
-import mongodb from "../images/mongodb.json";
-import node from "../images/node.json";
-import react from "../images/react.json";
-import JAVA from "../images/JAVA.json";
-import c from "../images/c.json";
-import CMS from "../images/CMS.json";
-import Lottie from "lottie-react";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaYoutube,
+  FaCode,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaDocker,
+  FaBootstrap,
+} from "react-icons/fa";
+import {
+  SiCplusplus,
+  SiMongodb,
+  SiMysql,
+  SiExpress,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export default function About() {
   const el = useRef(null);
@@ -29,6 +34,7 @@ export default function About() {
       typed.destroy();
     };
   }, []);
+
   return (
     <div className="container">
       <h1 className="text-center projects my-2 pb-2 font-weight-bold fixed">
@@ -36,42 +42,39 @@ export default function About() {
       </h1>
       <br />
       <div className="row justify-content-around">
-        <div className="col-md-4">
-          <div class="p-2 w-100 bd-highlight">
-            <img src="/assets/rajnish_mlsa.jpg" alt="" className="bg1" />
+        <div className="col-md-6">
+          <div className="p-2 w-100 bd-highlight">
+            <img
+              src="/assets/rajnish_photo.png"
+              alt=""
+              className="bg1"
+              style={{ width: "300px", height: "300px" }}
+            />
           </div>
         </div>
-        <div class="d-flex" style={{ height: "200px" }}>
-          <div class="vr"></div>
+
+        <div className="d-flex" style={{ height: "200px" }}>
+          <div className="vr"></div>
         </div>
 
-        <div className="col-md-4 text-white">
+        <div className="col-md-6 text-white">
           <button className="btn tech-stacks1 text-left mb-4">
             Rajnish Kumar Singh
           </button>
           <br />
-          <button className="btn tech-stacks1 mb-4 mr-3">Age: 21yrs</button>
-          <button className="btn tech-stacks1 mb-4 mr-3">
-            DOB: July 31, 2002
-          </button>
-          <button className="btn tech-stacks1 mb-4">Horoscope: Libra</button>
-          <button className="btn tech-stacks1 mb-4">
-            Location: Jamshedpur, IN
-          </button>
+          <button className="btn tech-stacks1 mb-4">Jamshedpur, IN</button>
           <button
             className="btn tech-stacks1 mb-4 text-left"
             style={{ width: "420px" }}
           >
-            Schooling: DAV Bistupur, Jharkhand
+            DAV Bistupur, Jharkhand
+            <br /> 10th: 94% | 12th: 95.2%
           </button>
           <button
             className="btn tech-stacks1 mb-4 text-left"
             style={{ width: "380px" }}
           >
-            College: IIIT Bhubaneswar'25
-          </button>
-          <button className="btn tech-stacks1 text-left mb-4">
-            Tech-Domain: Web-Dev
+            CSE, IIIT Bhubaneswar'25 <br /> 8.67 CGPA (5th sem)
           </button>
           <div className="buttons d-flex">
             <button
@@ -83,8 +86,7 @@ export default function About() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github&nbsp;
-                <FaGithubSquare style={{ width: "25px", height: "25px" }} />
+                <FaGithubSquare style={{ width: "20px", height: "20px" }} />
               </a>
             </button>
             <button
@@ -96,12 +98,11 @@ export default function About() {
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn&nbsp;
-                <FaLinkedin style={{ width: "25px", height: "25px" }} />
+                <FaLinkedin style={{ width: "20px", height: "20px" }} />
               </a>
             </button>
             <button
-              className="btn resume-button my-3"
+              className="btn resume-button my-3 mr-3"
               style={{ fontSize: "15px" }}
             >
               <a
@@ -109,8 +110,19 @@ export default function About() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Youtube&nbsp;
-                <FaYoutube style={{ width: " 25px", height: "25px" }} />
+                <FaYoutube style={{ width: "20px", height: "20px" }} />
+              </a>
+            </button>
+            <button
+              className="btn resume-button my-3 "
+              style={{ fontSize: "15px" }}
+            >
+              <a
+                href="https://leetcode.com/u/rajnish31july/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaCode style={{ width: "20px", height: "20px" }} />
               </a>
             </button>
           </div>
@@ -139,44 +151,54 @@ export default function About() {
       </p>
       <hr />
       <div className="d-flex justify-content-center">
-        <button class="btn tech-stacks my-3">TECH SKILLS</button>
+        <button className="btn tech-stacks my-3">TECHNICAL SKILLS</button>
       </div>
       <br />
-      <div className="row justify-content-center d-flex">
-        <div className="col-md-2">
-          <Lottie animationData={github} alt="github" className="icons" />
-          <Lottie animationData={git} alt="git" className="icons" />
-        </div>
-
-        <div className="col-md-2">
-          <Lottie animationData={html} alt="html5" className="icons" />
-          <Lottie animationData={css} alt="css3" className="icons" />
-        </div>
-
-        <div className="col-md-2">
-          <Lottie animationData={mongodb} alt="mongodb" className="icons" />
-          <Lottie animationData={node} alt="node" className="icons" />
-        </div>
-
-        <div className="col-md-2">
-          <Lottie
-            animationData={react}
-            alt="react"
-            className="icons mx-4"
-            style={{ width: "100px" }}
-          />
-          <Lottie animationData={JAVA} alt="JAVA  " className="icons" />
-        </div>
-
-        <div className="col-md-2">
-          <Lottie
-            animationData={c}
-            alt="c"
-            className="icons mx-4"
-            style={{ width: "100px" }}
-          />
-          <Lottie animationData={CMS} alt="CMS" className="icons" />
-        </div>
+      <div className="row text-white">
+        <table className="table text-white table-striped">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Skills</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Programming Languages</td>
+              <td>
+                <SiCplusplus style={{ width: "20px", height: "20px" }} />{" "}
+                <FaHtml5 style={{ width: "20px", height: "20px" }} />{" "}
+                <FaCss3Alt style={{ width: "20px", height: "20px" }} />{" "}
+                <FaJsSquare style={{ width: "20px", height: "20px" }} />
+              </td>
+            </tr>
+            <tr>
+              <td>Libraries/Frameworks/Version Control Systems</td>
+              <td>
+                <FaBootstrap style={{ width: "20px", height: "20px" }} />{" "}
+                <FaReact style={{ width: "20px", height: "20px" }} />{" "}
+                <SiNextdotjs style={{ width: "20px", height: "20px" }} />{" "}
+                <FaNodeJs style={{ width: "20px", height: "20px" }} />{" "}
+                <SiExpress style={{ width: "20px", height: "20px" }} />{" "}
+                <FaGithubSquare style={{ width: "20px", height: "20px" }} />{" "}
+                <FaDocker style={{ width: "20px", height: "20px" }} />
+              </td>
+            </tr>
+            <tr>
+              <td>Database</td>
+              <td>
+                <SiMysql style={{ width: "20px", height: "20px" }} />{" "}
+                <SiMongodb style={{ width: "20px", height: "20px" }} />
+              </td>
+            </tr>
+            <tr>
+              <td>Architectural Style</td>
+              <td>
+                <FaCode style={{ width: "20px", height: "20px" }} /> RESTful API
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   );
